@@ -1,0 +1,15 @@
+---
+layout: default
+title: Luna Graysen
+---
+
+<h1>{{ page.title }}</h1>
+<p>Software Engineer. They/them. 21, autistic, disabled, trans feminine, white.</p>
+<p><a href="cv.pdf">Resume</a> ♥ <a href="https://github.com/non-binary">GitHub</a> ♥ <a href="https://twitter.com/lunalovesbirds">Twitter</a></p>
+<h2>Posts</h2>
+
+{% for post in site.posts %}
+<p>{{ post.date | date: '%B %d, %Y' }}</p>
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+<p>{{ post.content }}</p>
+{% endfor %}

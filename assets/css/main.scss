@@ -1,0 +1,30 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@import "typography";
+
+.content {
+  width: 45rem;
+  margin: 0 auto;
+}
+
+h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+a {
+  color: purple;
+  text-decoration-style: dotted;
+}
+
+h1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+p, li, code {
+  font-size: 15px;
+}
