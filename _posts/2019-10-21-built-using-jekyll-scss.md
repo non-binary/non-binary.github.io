@@ -13,4 +13,4 @@ I decided to use Jekyll over other static generators because it's the one I have
 
 Next steps...
 
-I am going to implement some improvements such as pagination for blog posts, making the SCSS responsive (mobile, tablet, etc), and set up the www subdomain. You can check out the open issues on the repository by going here: https://github.com/non-binary/non-binary.github.io/issues.
+I am going to implement some improvements such as pagination for blog posts, making the SCSS responsive (mobile, tablet, etc), and set up the www subdomain. You can check out the open issues on the repository by going here: [https://github.com/non-binary/non-binary.github.io/issues](https://github.com/non-binary/non-binary.github.io/issues).
