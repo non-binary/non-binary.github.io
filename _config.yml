@@ -1,4 +1,4 @@
 sass:
-  style: compact # possible values: nested expanded compact compressed
-
+  style: compact
+  
 url: non-binary.github.io
