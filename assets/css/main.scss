@@ -5,26 +5,21 @@
 
 @import "typography";
 
-.content {
-  width: 45rem;
-  margin: 0 auto;
+h1 {
+  font-size: 25px;
+  font-weight: bold;
 }
 
 h3 {
-  margin-top: 0;
-  padding-top: 0;
-}
-
-a {
-  color: purple;
-  text-decoration-style: dotted;
-}
-
-h1 {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  font-size: 22.5px;
+  font-weight: bold;
 }
 
 p, li, code {
   font-size: 15px;
+}
+
+a, a:hover {
+  color: purple;
+  text-decoration-style: dotted;
 }
